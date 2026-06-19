@@ -1,19 +1,19 @@
 import { ToolCallback } from "@modelcontextprotocol/sdk/server/mcp";
-import { numberPairInput } from "../../schemas/math.js";
-import { RegisterToolConfigType } from "../../types/index.js";
+import { numberPairInput } from "../../schemas/math";
 import {
   addTwoNumbersConfig,
   subtractTwoNumbersConfig,
   multiplyTwoNumbersConfig,
   divideTwoNumbersConfig,
-} from "./config/index.js";
+} from "./config";
 import { McpTools } from "./enum.js";
 import {
   addTwoNumbesTool,
   divideTwoNumbersTool,
   multiplyTwoNumbersTool,
   subtractTwoNumbersTool,
-} from "./math.tools.js";
+} from "./math.tools";
+import { RegisterToolConfigType } from "../../types";
 
 export const mcpRegistry: Map<
   string,

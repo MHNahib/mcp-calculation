@@ -1,5 +1,5 @@
 import { ToolCallback } from "@modelcontextprotocol/sdk/server/mcp";
-import { numberPairInput } from "../../schemas/math.js";
+import { numberPairInput } from "../../schemas/math";
 
 export const addTwoNumbesTool: ToolCallback<typeof numberPairInput> = async ({
   a,
